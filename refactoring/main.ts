@@ -1,5 +1,5 @@
 import {AppController} from "./controllers/app.controller";
-import {AppView} from "./views/appView";
+import {AppView} from "./views/app.view";
 
 class App {
     controller: AppController;

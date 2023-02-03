@@ -1,4 +1,5 @@
-function sortWord(word) {
+//  - Inserting sort algorithm
+function sortWord(word: string) {
     let arr = word.split('');
     let n = arr.length;
 

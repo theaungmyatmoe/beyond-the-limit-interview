@@ -1,4 +1,6 @@
 // TODO: refactoring this code to be dynamic and not hard coded
+import {color, cpu, ram} from "./main";
+
 function generateVariations(cpu, ram, color) {
     const result = [];
     for (const cpuOption of cpu) {

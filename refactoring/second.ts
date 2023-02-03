@@ -1,22 +1,6 @@
-import {UserService} from "./services/user.service";
-import {UserDto} from "./dto/userDto";
+import {SecondAppController} from "./controllers/second_app.controller";
+import {SecondAppView} from "./views/second_app.view";
 
-class SecondAppController {
-    userActions: UserService;
-
-    constructor() {
-        this.userActions = new UserService();
-    }
-
-    login(data: UserDto) {
-        return this.userActions.login(data);
-    }
-}
-
-class SecondAppView {
-    renderLogin() {
-    }
-}
 
 class SecondApp {
     controller: SecondAppController;

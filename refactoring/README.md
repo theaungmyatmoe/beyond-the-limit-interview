@@ -5,6 +5,7 @@
 - Model View Controller
 - Data Transfer Objects
 - Service Rep Architecture
+- Dependency Injection 
 
 # Problems
 
@@ -25,3 +26,4 @@ void login(){}
 }
 
 ```
+
