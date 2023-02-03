@@ -1,4 +1,4 @@
-import {MessageDto} from "../dtos/messageDto";
+import {MessageDto} from "../dto/messageDto";
 
 export class MessageService {
     sendMessage(data: MessageDto) {

@@ -1,4 +1,4 @@
-import {UserDto} from "../dtos/userDto";
+import {UserDto} from "../dto/userDto";
 
 export class UserService {
     login(data: UserDto) {

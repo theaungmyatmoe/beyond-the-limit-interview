@@ -1,7 +1,7 @@
 import {UserService} from "../services/user.service";
 import {MessageService} from "../services/message.service";
-import {UserDto} from "../dtos/userDto";
-import {MessageDto} from "../dtos/messageDto";
+import {UserDto} from "../dto/userDto";
+import {MessageDto} from "../dto/messageDto";
 
 export class AppController {
     userService: UserService;

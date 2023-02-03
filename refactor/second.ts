@@ -1,5 +1,5 @@
 import {UserService} from "./services/user.service";
-import {UserDto} from "./dtos/userDto";
+import {UserDto} from "./dto/userDto";
 
 class SecondAppController {
     userActions: UserService;
