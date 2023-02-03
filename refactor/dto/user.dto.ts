@@ -1,4 +1,4 @@
-export interface IUserServiceDto {
+export interface IUserServiceDTO {
     getProfile(): void;
 
     updateProfile(): void;

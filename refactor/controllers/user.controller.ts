@@ -1,8 +1,8 @@
-import {IUserServiceDto} from "../dto/user.dto";
+import {IUserServiceDTO} from "../dto/user.dto";
 
 export class UserController {
     constructor(
-        private userService?: IUserServiceDto
+        private userService?: IUserServiceDTO
     ) {
     }
 
