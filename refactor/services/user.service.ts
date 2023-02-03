@@ -1,10 +1,18 @@
+import {UserDto} from "../dtos/userDto";
+
 export class UserService {
-    getProfile() {
-        console.log('user profile')
+    login(data: UserDto) {
     }
 
-    updateProfile() {
-        console.log('update user profile')
+    logout(data: UserDto) {
     }
 
+    register(data: UserDto) {
+    }
+
+    getProfile(data: UserDto) {
+    }
+
+    updateProfile(data: UserDto) {
+    }
 }

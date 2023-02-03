@@ -1,13 +1,14 @@
-import {UserController} from "./controllers/user.controller";
-import {UserService} from "./services/user.service";
-
-const userService = new UserService()
-const auth = new UserController(userService);
+import {AppController} from "./controllers/app.controller";
+import {AppView} from "./views/appView";
 
 class App {
-    login() {
-        auth.login()
-    }
+    controller: AppController;
+    view: AppView;
 
+    constructor() {
+        this.controller = new AppController();
+        this.view = new AppView();
+    }
 }
+
 

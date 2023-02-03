@@ -1,12 +1,29 @@
 import {UserService} from "./services/user.service";
-import {UserController} from "./controllers/user.controller";
+import {UserDto} from "./dtos/userDto";
 
-const userService = new UserService()
-const auth = new UserController(userService);
+class SecondAppController {
+    userActions: UserService;
 
-class SecondApp {
-    login() {
-        auth.login()
+    constructor() {
+        this.userActions = new UserService();
+    }
+
+    login(data: UserDto) {
+        return this.userActions.login(data);
     }
 }
 
+class SecondAppView {
+    renderLogin() {
+    }
+}
+
+class SecondApp {
+    controller: SecondAppController;
+    view: SecondAppView;
+
+    constructor() {
+        this.controller = new SecondAppController();
+        this.view = new SecondAppView();
+    }
+}
