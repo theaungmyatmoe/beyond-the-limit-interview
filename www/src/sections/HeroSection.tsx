@@ -53,9 +53,12 @@ export default function HeroSection() {
           here for your service.
         </p>
         <div className="mt-4">
-          <button className="mb-0.5  inline-flex  justify-center rounded-full bg-white px-5  py-2.5 pl-3 pr-4 font-medium text-blue-500 hover:bg-white/90 hover:text-blue-600">
+          <a
+            href="#getting-started"
+            className="mb-0.5  inline-flex  justify-center rounded-full bg-white px-5  py-2.5 pl-3 pr-4 font-medium text-blue-500 hover:bg-white/90 hover:text-blue-600"
+          >
             Getting Started
-          </button>
+          </a>
         </div>
       </div>
     </div>
