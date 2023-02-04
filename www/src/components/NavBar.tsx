@@ -1,5 +1,5 @@
-import DropDown, { Navigation, NavigationWithSubMenu } from "./Dropdown";
 import starLightLogo from "../assets/starlight_color_logo.png";
+import DropDown, { NavigationWithSubMenu } from "./Dropdown";
 
 const navigations: NavigationWithSubMenu[] = [
   {
@@ -74,6 +74,15 @@ export default function NavBar() {
               {navigations.map((navigation, index) => {
                 return <DropDown navigation={navigation} key={index} />;
               })}
+              <li>
+                <a
+                  href="#getting-started"
+                  className="mb-0.5  inline-flex w-full rounded bg-indigo-900 bg-opacity-20 py-2 pl-3 pr-4 text-white dark:bg-gray-700
+                   dark:text-gray-400 dark:hover:bg-gray-600  sm:justify-center md:rounded-full md:bg-white md:px-5 md:py-2.5 md:text-blue-500 md:hover:bg-white/90 md:hover:text-blue-600"
+                >
+                  Getting Started
+                </a>
+              </li>
             </ul>
           </div>
         </div>
