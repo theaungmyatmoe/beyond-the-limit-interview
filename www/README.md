@@ -19,3 +19,7 @@ Warning: This won't work now becasue of the vite's bunding issue. I will open is
 ```bash
 pnpm build
 ```
+
+## See build issue
+
+https://github.com/vitejs/vite/issues/11937

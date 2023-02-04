@@ -1,0 +1,36 @@
+vite v4.1.1 building for production...
+transforming...
+✓ 303 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                  0.46 kB
+dist/assets/martin-6b05f258.jpg                 11.39 kB
+dist/assets/tawwin-a3a24738.jpg                 25.98 kB
+dist/assets/starlight_color_logo-529c106e.png   33.62 kB
+dist/assets/privately_chat-26aa9e7e.png         45.83 kB
+dist/assets/game_controller-d51b0eb2.png        48.57 kB
+dist/assets/socket_io-a414d69f.png             124.15 kB
+dist/assets/lawkanet-4ad62646.jpg              189.37 kB
+dist/assets/twhh-39046d7b.png                  212.52 kB
+dist/assets/lawkanatweb-884d3e7d.png           336.61 kB
+dist/assets/thazin_cherry-7021bb62.jpg         918.34 kB
+dist/assets/index-29aa1074.css                  35.68 kB │ gzip:   6.69 kB
+dist/assets/index-85d514cd.js                  885.15 kB │ gzip: 225.99 kB
+vite v4.1.1 building for production...
+transforming...
+✓ 303 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                  0.46 kB
+dist/assets/martin-6b05f258.jpg                 11.39 kB
+dist/assets/tawwin-a3a24738.jpg                 25.98 kB
+dist/assets/starlight_color_logo-529c106e.png   33.62 kB
+dist/assets/privately_chat-26aa9e7e.png         45.83 kB
+dist/assets/game_controller-d51b0eb2.png        48.57 kB
+dist/assets/socket_io-a414d69f.png             124.15 kB
+dist/assets/lawkanet-4ad62646.jpg              189.37 kB
+dist/assets/twhh-39046d7b.png                  212.52 kB
+dist/assets/lawkanatweb-884d3e7d.png           336.61 kB
+dist/assets/thazin_cherry-7021bb62.jpg         918.34 kB
+dist/assets/index-29aa1074.css                  35.68 kB │ gzip:   6.69 kB
+dist/assets/index-85d514cd.js                  885.15 kB │ gzip: 225.99 kB
