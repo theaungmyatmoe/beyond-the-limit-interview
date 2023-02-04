@@ -47,7 +47,7 @@ export default function HeroSection() {
 
       {/* srevice overview */}
       <div className="mx-auto  flex max-w-3xl flex-col gap-y-3 text-center ">
-        <p className=" text-3xl tracking-tight text-white">
+        <p className=" text-3xl leading-relaxed tracking-tight text-white">
           We are providing many colorful features to your enterpirse busniess.
           You can customize your features depending on your requirements. We are
           here for your service.
