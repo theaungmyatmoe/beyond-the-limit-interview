@@ -29,8 +29,11 @@ const clients = [
 
 export default function ClientSection() {
   return (
-    <div className="bg-gray-50 py-52" id="getting-started">
+    <div className="py-24" id="getting-started">
       <div className="mx-auto max-w-7xl">
+        <h2 className="mb-8 text-center text-3xl font-bold text-gray-700">
+          Our Clients
+        </h2>
         <div className="flex gap-x-5">
           {clients.map((client, index) => {
             return (
