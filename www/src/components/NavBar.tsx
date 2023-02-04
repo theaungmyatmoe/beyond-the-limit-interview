@@ -60,7 +60,7 @@ export default function NavBar() {
     <nav
       ref={navRef}
       className={clsx(
-        "top-0 z-10 w-full border-gray-200 bg-indigo-800 px-2 py-2.5  transition-all duration-300 dark:bg-gray-900  sm:px-4",
+        "top-0 z-20 w-full border-gray-200 bg-indigo-800 px-2 py-2.5  transition-all duration-300 dark:bg-gray-900  sm:px-4",
         !isIntersecting ? "fixed  block shadow-md" : "-top-28 shadow-none"
       )}
     >
