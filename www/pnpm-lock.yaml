@@ -8,6 +8,7 @@ specifiers:
   '@vitejs/plugin-react-swc': ^3.0.0
   autoprefixer: ^10.4.13
   flowbite: ^1.6.3
+  lottie-react: ^2.3.1
   postcss: ^8.4.21
   prettier: ^2.8.3
   prettier-plugin-tailwindcss: ^0.2.2
@@ -22,6 +23,7 @@ dependencies:
   '@headlessui/react': 1.7.8_biqbaboplfbrettd7655fr4n2y
   '@heroicons/react': 2.0.14_react@18.2.0
   flowbite: 1.6.3
+  lottie-react: 2.3.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-grid-carousel: 1.0.1_biqbaboplfbrettd7655fr4n2y
@@ -976,6 +978,21 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+    dev: false
+
+  /lottie-react/2.3.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-8cxd6XZZtECT6LoAhCftRdYrEpHxiouvB5EPiYA+TtCG5LHNYAdMS9IVIHcxKtWnpo7x16QfCLj1XLXZpaN81A==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      lottie-web: 5.10.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /lottie-web/5.10.2:
+    resolution: {integrity: sha512-d0PFIGiwuMsJYaF4uPo+qG8dEorlI+xFI2zrrFtE1bGO4WoLIz+NjremxEq1swpR7juR10aeOtmNh3d6G3ub0A==}
     dev: false
 
   /memoize-one/5.2.1:
