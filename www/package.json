@@ -11,11 +11,15 @@
   "dependencies": {
     "@headlessui/react": "^1.7.8",
     "@heroicons/react": "^2.0.14",
+    "@reduxjs/toolkit": "^1.9.2",
+    "clsx": "^1.2.1",
     "flowbite": "^1.6.3",
     "lottie-react": "^2.3.1",
+    "oden-reactive-store": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-grid-carousel": "^1.0.1"
+    "react-grid-carousel": "^1.0.1",
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

@@ -1,12 +1,24 @@
+import { useEffect, useRef } from "react";
 import gameControllerImage from "../assets/game_controller.png";
 import lawKaNatWebImage from "../assets/lawkanatweb.png";
 import privatedLyChatImage from "../assets/privately_chat.png";
 import socketIoImage from "../assets/socket_io.png";
 import twhhImage from "../assets/twhh.png";
+import useIntersecionObserver from "../hooks/useIntersectionObserver";
+import { useDispatch } from "react-redux";
+import { observeElement } from "../slices/intersectorSlice";
 
 export default function HeroSection() {
+  const heroSectionRef = useRef<HTMLDivElement>(null);
+  const isIntersecting = useIntersecionObserver(heroSectionRef);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(observeElement(isIntersecting));
+  }, [isIntersecting]);
+
   return (
-    <div className="bg-indigo-800 py-10">
+    <div className="bg-indigo-800 py-10" ref={heroSectionRef}>
       <h1 className="text-center text-5xl font-bold tracking-tighter text-white">
         Build App For Your Business
       </h1>
