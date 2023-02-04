@@ -45,7 +45,12 @@ export default function ClientSection() {
                   <h3 className="text-2xl font-bold text-gray-50">
                     {client.name}
                   </h3>
-                  <button className="rounded-full border px-6 py-1 text-lg text-gray-50">
+                  <button
+                    className={clsx(
+                      "rounded-full border px-6 py-1 text-lg text-gray-50",
+                      "hover:bg-indigo-600"
+                    )}
+                  >
                     Learn
                   </button>
                 </div>
