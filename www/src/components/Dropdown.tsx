@@ -20,7 +20,7 @@ export default function Dropdown({ navigation }: IDropdownProps) {
     <div className="text-right">
       <Menu as="div" className="relative inline-block w-full text-left">
         <div>
-          <Menu.Button className="mb-0.5  block w-full justify-center rounded bg-indigo-900 bg-opacity-20 py-2 pl-3 pr-4 text-white md:rounded-full md:bg-transparent  md:px-5 md:py-2.5 md:text-white md:hover:bg-blue-300/30 md:hover:text-white">
+          <Menu.Button className="mb-0.5  inline-flex w-full rounded bg-indigo-900 bg-opacity-20 py-2 pl-3 pr-4 text-white sm:justify-center md:rounded-full md:bg-transparent  md:px-5 md:py-2.5 md:text-white md:hover:bg-blue-300/30 md:hover:text-white">
             {navigation.name}
           </Menu.Button>
         </div>
@@ -33,10 +33,10 @@ export default function Dropdown({ navigation }: IDropdownProps) {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="absolute mt-2 w-48 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-            <div className="px-1 py-1 ">
+          <Menu.Items className="absolute z-10 mt-2 w-full origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:w-48">
+            <div className="px-1 py-1">
               {navigation.subMenu?.map((item, index) => (
-                <Menu.Item>
+                <Menu.Item key={index}>
                   {({ active }) => (
                     <button
                       className={`${
